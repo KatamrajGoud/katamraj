@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Katam Raj Madagoni — QA Engineer</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#home" class="brand">Katam Raj</a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="home" class="hero">
+        <div class="container">
+            <h1>Hello, I'm <span>Katam Raj</span></h1>
+            <p>Quality Assurance Engineer | Manual & API Testing | SQL | JIRA</p>
+            <a class="btn" href="#contact">Let’s Connect</a>
+        </div>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a Quality Assurance Engineer with 1+ year of experience in manual, functional, and API testing. I have worked on SaaS web and mobile applications including the Government project “BookMySand – Telangana Sand Booking System.” Skilled in SQL backend validation, Postman API testing and JIRA defect tracking.</p>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <span>Manual Testing</span>
+                <span>Functional Testing</span>
+                <span>API Testing (Postman)</span>
+                <span>SQL / DB Testing</span>
+                <span>JIRA</span>
+                <span>Responsive Testing</span>
+                <span>Basic Automation (Selenium)</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2>Experience</h2>
+
+            <div class="exp-card">
+                <h3>Quality Assurance Engineer</h3>
+                <p><strong>Kshiyarise Technologies Pvt Ltd</strong> (Apr 2025 – Present)</p>
+                <ul>
+                    <li>Performed manual, functional, and regression testing for SaaS and mobile apps.</li>
+                    <li>Executed API testing using Postman.</li>
+                    <li>Tracked defects and enhancements in JIRA.</li>
+                    <li>Validated SQL backend data.</li>
+                </ul>
+            </div>
+
+            <div class="exp-card">
+                <h3>QA Tester Intern</h3>
+                <p><strong>Mainavi Global Solutions</strong> (Dec 2024 – Mar 2025)</p>
+                <ul>
+                    <li>Assisted in testing mobile and web features.</li>
+                    <li>Created test cases and executed test scripts.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <h2>Projects</h2>
+
+            <div class="project-card">
+                <img src="images/bookmysand.png" alt="BookMySand Project" />
+                <h3>BookMySand – Telangana Sand Booking</h3>
+                <p>Government E-Commerce sand booking system tested for web & mobile, including payment flows, SQL validation and API testing.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/mcc.png" alt="MCC Project" />
+                <h3>MCC – Multi Channel Communication</h3>
+                <p>Tested SMS & email campaigns, API testing via Postman and DLT template validation.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="images/cabinzo.png" alt="Cabinzo Project" />
+                <h3>Cabinzo – Space Booking Platform</h3>
+                <p>Mobile and admin portal functional testing, payment validation and usability testing.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- DOWNLOAD RESUME -->
+    <section class="section resume-download">
+        <div class="container center">
+            <a class="btn" href="resume.pdf" download="KatamRajQA_Resume.pdf">Download Resume</a>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <strong>katamraj96@gmail.com</strong></p>
+            <p>Phone: <strong>+91 7893063160</strong></p>
+            <p>Location: Hyderabad, Telangana, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Katam Raj Madagoni | QA Engineer</p>
+    </footer>
+
+</body>
+</html>
